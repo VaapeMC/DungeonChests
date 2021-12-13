@@ -1,0 +1,8 @@
+name: Refer
+main: me.vaape.refer.Refer
+version: 1.0
+api-version: 1.17
+depend: [Vault, LuckPerms]
+commands:
+  refer:
+    description: Refer a friend and both receive gold rank when they join
