@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'me.vaape'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    compileOnly('org.spigotmc:spigot-api:1.17.1-R0.1-SNAPSHOT')
+    compileOnly "com.github.MilkBowl:VaultAPI:1.7"
+    compileOnly 'net.luckperms:api:5.3'
+    compileOnly('me.vaape:rewards:1.0.0')
+}
