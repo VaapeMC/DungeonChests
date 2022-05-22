@@ -139,7 +139,7 @@ public class Refer extends JavaPlugin implements Listener {
                                 }
                             }
                         }.runTask(plugin);
-                    } if (successfulReferrals < 3) {
+                    } if (successfulReferrals < 5) {
                         Rewards.plugin.giveReward("degg", Bukkit.getOfflinePlayer(UUID.fromString(refereeUUID)), true);
                     }
 
