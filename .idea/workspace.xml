@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c6aae1-040a-4005-901a-269b591204bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/Rewards-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="91c6aae1-040a-4005-901a-269b591204bf" name="Changes" comment="1.18.2 update">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/DungeonChests.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Refer.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/DungeonChests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/commands/AddChestItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/commands/AddChestLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/commands/RefillChests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/commands/ReloadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/commands/RemoveChestLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/commands/ReplaceChests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/vaape/dungeonchests/listeners/InteractListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/vaape/refer/Refer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/vaape/refer/Refer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/Rewards-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/vaape/refer/Refer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +47,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Refer" type="f1a62948:ProjectNode" />
+                <item name="DungeonChests" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Refer" type="f1a62948:ProjectNode" />
+                <item name="DungeonChests" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Refer" type="f1a62948:ProjectNode" />
+                <item name="DungeonChests" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -57,6 +69,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,7 +92,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VoteListener" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -86,6 +107,11 @@
       <recent name="C:\Users\billy\IdeaProjects\Refer\libs" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.vaape.dungeonchests.commands" />
+      <recent name="me.vaape.refer.commands" />
+      <recent name="me.vaape.refer.listeners" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Refer [build]">
@@ -169,6 +195,14 @@
       <option name="presentableId" value="Default" />
       <updated>1640194369940</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.18.2 update">
+      <created>1653241120365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653241120365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,5 +215,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.18.2 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.18.2 update" />
   </component>
 </project>

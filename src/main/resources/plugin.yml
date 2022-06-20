@@ -1,8 +1,21 @@
-name: Refer
-main: me.vaape.refer.Refer
+name: DungeonChests
+main: me.vaape.dungeonchests.DungeonChests
 version: 1.0
 api-version: 1.18
-depend: [Vault, LuckPerms, Rewards]
+depend: []
 commands:
-  refer:
-    description: Refer a friend and both receive gold rank when they join
+  replacechests:
+    description: Replace and refill dungeon chests
+    permission: dungeonchests.refillchests
+  reloaddungeonchests:
+    description: Reload config
+    permission: dungeonchests.reload
+  addchestitem:
+    description: Add item in hand to the item list in the config
+    permission: dungeonchests.addchestitem
+  addchestlocation:
+    description: Add a location for a dungeon chest
+    permission: dungeonchests.addchestlocation
+  removechestlocation:
+    description: Remove a location for a dungeon chest
+    permission: dungeonchests.removechestlocation

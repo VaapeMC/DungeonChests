@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
     mavenLocal()
     maven {
-        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+        url = 'https://papermc.io/repo/repository/maven-public/'
     }
     maven {
         url = "https://oss.sonatype.org/content/repositories/snapshots/"
@@ -17,14 +17,12 @@ repositories {
     maven {
         url 'https://jitpack.io'
     }
-    flatDir {
-        dirs 'libs'
-    }
 }
 
 dependencies {
-    compileOnly('org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT')
-    compileOnly "com.github.MilkBowl:VaultAPI:1.7"
-    compileOnly 'net.luckperms:api:5.4'
-    implementation files('libs/Rewards-1.0.0.jar')
+    implementation 'org.jetbrains:annotations:23.0.0'
+    compileOnly('io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT')
+    //compileOnly "com.github.MilkBowl:VaultAPI:1.7"
+    //compileOnly 'net.luckperms:api:5.4'
+    //implementation files('libs/Rewards-1.0.0.jar')
 }
